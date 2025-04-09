@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Latihan 3 - Gambar dan Katalog</title>
+        <style>
+            .image-container {
+                display: flex;
+                gap: 20px;
+            }
+            .image-container img{
+                border: 2px solid black;
+            }
+            .catalog{
+                display: flex;
+                flex-wrap: wrap;
+                gap: 20px;
+                justify-content: center;
+            }
+            .catalog-item {
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Selamat Datang di Onnifty</h2>
+        <div class="image-container">
+            <img src="gambar1.jpg" alt="gambar1" style="border: 2px solid black" width="150" height="150"">
+            <img src="gambar2.jpg" alt="gambar2" hspace="10" width="150" height="150">
+            <img src="../gambar3.jpg" alt="gambar3" title="ini adalah halaman request order" width="150" height="150">
+        </div>
+        <h2>Katalog Produk</h2>
+        <div class="catalog">
+            <div class="catalog-item">
+                <img src="katalog1.jpg" alt="Produk 1" width="150">
+                <p>Produk 1</p>
+            </div>
+            <div class="catalog-item">
+                <img src="katalog2.jpg" alt="Produk 2" width="150">
+                <p>Produk 2</p>
+            </div>
+            <div class="catalog-item">
+                <img src="katalog3.jpg" alt="Produk 3" width="150">
+                <p>Produk 3</p>
+            </div>
+        </div>
+    </body>
+</html>
