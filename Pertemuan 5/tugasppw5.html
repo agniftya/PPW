@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <title>Tugas PPW 5 - Tabel dan Gambar</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fefefe;
+      margin: 20px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #333;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 20px auto;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    th, td {
+      border: 1px solid #999;
+      padding: 10px;
+      text-align: center;
+      vertical-align: top;
+    }
+
+    thead th {
+      background-color: #d3d3d3;
+    }
+
+    tbody tr:nth-child(odd) {
+      background-color: #f9f9f9;
+    }
+
+    tbody tr:nth-child(even) {
+      background-color: #fefefe;
+    }
+
+    .highlight {
+      background-color: #f5f5dc;
+      text-align: left;
+    }
+
+    figure {
+      margin: 20px auto;
+      text-align: center;
+    }
+
+    figure img {
+      max-width: 300px;
+      border-radius: 10px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    }
+
+    figcaption {
+      margin-top: 10px;
+      font-style: italic;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <h2>Tabel Data Siswa</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th rowspan="2">Nama</th>
+        <th rowspan="2">NIM</th>
+        <th colspan="2">Jurusan</th>
+      </tr>
+      <tr>
+        <th>Fakultas</th>
+        <th>Program Studi</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="highlight">
+        <td>Agni</td>
+        <td>422310049</td>
+        <td>STTI NIIT</td>
+        <td>Teknik Informatika</td>
+      </tr>
+      <tr>
+        <td colspan="4">
+          <figure>
+            <img src="kucing.jpg" alt="Contoh Gambar" />
+            <figcaption>Gambar 1: Contoh penggunaan tag figure dan figcaption</figcaption>
+          </figure>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
