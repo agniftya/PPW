@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang-"en">
+    <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formulir Pemesanan Toko Onnifty</title>
+    </head>
+    <body background="image/background.jpg">
+        <h1 align="center">Formulir Pemesanan Toko Onnifty</h1>
+        <form action="proses_pemesanan.php" method="post">
+            <table align="center" border="0" cellpadding="5" cellspacing="0">
+                <tr>
+                    <td>Nama Lengkap</td>
+                    <td>:</td>
+                    <td><input type="text" name="nama_lengkap" required></td>
+                </tr>
+                <tr>
+                    <td>Alamat Lengkap</td>
+                    <td>:</td>
+                    <td><textarea name="alamat_lengkap" rows="4" cols="30" required></textarea></td>
+                </tr>
+                <tr>
+                    <td>No. Telepon</td>
+                    <td>:</td>
+                    <td><input type="text" name="no_telepon" required></td>
+                </tr>
+                <tr>
+                    <td>Produk yang Dipesan</td>
+                    <td>:</td>
+                    <td><input type="text" name="produk_dipesan" required></td>
+                </tr>
+                <tr>
+                    <td colspan="3" align="center"><input type="submit" value="Kirim"></td>
+                </tr>
+            </table>
+        </form>
+        
+    </body>
+</html>
