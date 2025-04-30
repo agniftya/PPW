@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ADA Berita - Gabungan</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f4f4f4;
+      }
+
+      header {
+        background-color: #cc0000;
+        color: white;
+        padding: 1rem 2rem;
+      }
+
+      header h1 {
+        margin: 0;
+      }
+
+      nav {
+        background-color: #333;
+        overflow: auto;
+      }
+
+      nav a {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 0.75rem 1.5rem;
+        text-decoration: none;
+      }
+
+      nav a:hover {
+        background-color: #cc0000;
+      }
+
+      main {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 1rem 2rem;
+      }
+
+      section {
+        flex: 3;
+        padding-right: 1rem;
+      }
+
+      article {
+        background: white;
+        margin-bottom: 1rem;
+        padding: 1rem;
+        border-radius: 5px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+      }
+
+      article h2 {
+        margin-top: 0;
+        color: #cc0000;
+      }
+
+      aside {
+        flex: 1;
+        background-color: #fff;
+        padding: 1rem;
+        border-radius: 5px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        height: fit-content;
+      }
+
+      footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 1rem;
+        margin-top: 2rem;
+      }
+
+      .timestamp {
+        font-size: 0.85rem;
+        color: gray;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>ADA BERITA</h1>
+      <p>Akurat, Dalam, Aktual – sumber terpercaya Anda setiap saat!</p>
+    </header>
+
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Nasional</a>
+      <a href="#">Internasional</a>
+      <a href="#">Ekonomi</a>
+      <a href="#">Teknologi</a>
+      <a href="#">Olahraga</a>
+    </nav>
+
+    <main>
+      <section>
+        <article>
+          <h2>Berita Utama Hari Ini</h2>
+          <p class="timestamp">30 April 2025 • Redaksi</p>
+          <p>
+            Presiden meresmikan jembatan baru penghubung antar provinsi di
+            Sumatera Barat.
+          </p>
+        </article>
+
+        <article>
+          <h2>Presiden Resmikan Jalan Tol Baru di Kalimantan</h2>
+          <p class="timestamp">30 April 2025 • oleh Redaksi</p>
+          <p>
+            Presiden meresmikan jalan tol sepanjang 150 km yang menghubungkan
+            Balikpapan dan Samarinda untuk mendukung IKN.
+          </p>
+        </article>
+
+        <article>
+          <h2>Ekonomi Indonesia Tumbuh 5,2% di Kuartal Pertama</h2>
+          <p class="timestamp">29 April 2025 • oleh Ekonomi Desk</p>
+          <p>
+            Data dari BPS menunjukkan pertumbuhan ekonomi yang stabil di tengah
+            tantangan global. Industri manufaktur jadi penyumbang utama.
+          </p>
+        </article>
+
+        <article>
+          <h2>Startup Teknologi Lokal Masuk Daftar Forbes 30 Under 30</h2>
+          <p class="timestamp">28 April 2025 • oleh Tech Editor</p>
+          <p>
+            Perusahaan rintisan dari Yogyakarta mencuri perhatian dunia dengan
+            inovasi di bidang edukasi digital.
+          </p>
+        </article>
+      </section>
+
+      <aside>
+        <h3>Berita Populer</h3>
+        <ul>
+          <li><a href="#">Kasus Korupsi Baru Terungkap di Kementerian</a></li>
+          <li><a href="#">iPhone 15 Rilis Resmi di Indonesia</a></li>
+          <li><a href="#">Timnas Siap Berlaga di Final Piala Asia</a></li>
+          <li><a href="#">Perubahan Iklim Jadi Fokus Dunia</a></li>
+          <li>
+            <a href="#">Startup Edutech Indonesia Menarik Investor Asing</a>
+          </li>
+        </ul>
+      </aside>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 ADA Berita. Semua hak dilindungi undang-undang.</p>
+    </footer>
+  </body>
+</html>
